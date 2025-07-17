@@ -1,0 +1,318 @@
+.data2 {
+   display: inline-flex;
+   flex-flow: row wrap;
+   align-items: center;
+  float: right;
+  width: 1000px;
+}
+.data3 {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+ float: right;
+ width: 300px;
+}
+.data4 {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+ float: right;
+ width: 430px;
+}
+.data {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+ float: right;
+}
+form label {
+   margin: 5px 10px 5px 5px;    
+}
+form input {
+   margin: 5px 10px 5px 5px;
+   padding: 10px;
+
+}
+
+select{
+  background: none;
+  color:#c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 20%;
+  border:none;
+  border-bottom: 1px solid var(--colorTextos);
+  resize: none;
+}
+select:focus{
+  outline: none;
+  color: rgb(94,93,93);
+}
+
+button{
+  background: #FC5C7D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #682444, #a7004e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #682444, #a7004e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: block;
+  width: 200px;
+  height: 40px;
+  border:none;
+  color:#fff; 
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #FC5C7D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a7004e, #682444);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a7004e, #682444);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: block;
+  width: 200px;
+  height: 40px;
+  border:none;
+  color:#fff; 
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+.agregarfoto{
+  width: 150px;
+  background: #682444;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  align-self: flex-end;
+  color: #fff;
+  font-family: 'Open sans';
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.agregarfoto:hover{
+  width: 150px;
+  background: #a7004e;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  align-self: flex-end;
+  color: #fff;
+  font-family: 'Open sans';
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.agregarfoto2{
+  width: 70px;
+  background: #682444;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  align-items: center;
+  display: inline-flex;
+  color: #fff;
+  font-family: 'Open sans';
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.agregarfoto2:hover{
+  width: 70px;
+  background: #a7004e;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  align-items: center;
+  display: inline-flex;
+  color: #fff;
+  font-family: 'Open sans';
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tdgrupo{
+  width: 34% !important;
+}
+.paginador ul{
+ padding: 5px;
+ list-style: none;
+ background: #FFF;
+ margin-top: 4px;
+ margin-bottom: 15px;
+ display: -webkit-flex;
+ display: -moz-flex;
+ display: -ms-flex;
+ display: -o-flex;
+ display: flex;
+}
+.paginador a, .pageSelected{
+ color: #682444;
+ border: 1px solid #ddd;
+ padding: 5px;
+ display: inline-block;
+ font-size: 14px;
+ text-align: center;
+ width: 35px;
+}
+.paginador a:hover{
+ background: #ddd;
+}
+.pageSelected{
+ color: #FFF;
+ background: #682444;
+ border: 1px solid #a7004e;
+}
+
+.Adddata {
+   display: inline-flex;
+   flex-flow: row wrap;
+   align-items: center;
+  float: left;
+  background: #FC5C7D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #682444, #a7004e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #682444, #a7004e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: block;
+  width: 200px;
+  height: 40px;
+  border:none;
+  color:#fff; 
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.Adddata:hover {
+   display: inline-flex;
+   flex-flow: row wrap;
+   align-items: center;
+  float: left;
+  background: #FC5C7D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a7004e, #682444);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a7004e, #682444);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: block;
+  width: 200px;
+  height: 40px;
+  border:none;
+  color:#fff; 
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.selectData{
+  background: none;
+  color:#c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 11%;
+  border-color: #ddd;
+  margin-right: 13px;
+  resize: none;
+}
+.selectData:focus{
+  outline: none;
+  color: rgb(94,93,93);
+} 
+.selectData2{
+  background: none;
+  color:#c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 35%;
+  border-color: #ddd;
+  margin-right: 13px;
+  resize: none;
+}
+.selectData2:focus{
+  outline: none;
+  color: rgb(94,93,93);
+} 
+.subtitle2{
+  color: #682444;
+  font-weight: 800;
+}
+
+.textSubtitle{
+  color: #860441;
+  font-weight: 700;
+  margin-right: 25px;
+}
+
+@media screen and (max-width:720px) {
+.textSubtitle{
+  display: list-item;
+}
+
+.selectData2{
+  background: none;
+  color:#c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 35%;
+  border-color: #ddd;
+  margin-right: 13px;
+  resize: none;
+}
+.selectData2:focus{
+  outline: none;
+  color: rgb(94,93,93);
+} 
+
+
+.data2 {
+  display: contents;
+  flex-flow: row wrap;
+  align-items: center;
+ float: center;
+ width: 1000px;
+}
+.data4 {
+  display: contents;
+  flex-flow: row wrap;
+  align-items: center;
+ float: right;
+ width: 430px;
+}
+.data3 {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-items: center;
+ float: right;
+ width: 300px;
+}
+
+.selectData{
+  background: none;
+  color:#c6c6c6;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 50%;
+  border-color: #ddd;
+  margin-right: 13px;
+  resize: none;
+}
+
+}
